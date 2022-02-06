@@ -4,34 +4,191 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./img/">
+    <link rel="icon" href="./images/scooter.svg">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Document</title>
+    <title>Scoot</title>
 </head>
 <body>
-
+    
+    <h1 class="visually-hidden">buy scooters cheaper but better welcome to scooter shop</h1>
+    
+    
     <header class="header">
-        <nav class="nav">
-            <div class="container">
-
+        <div class="container">
+            <div class="header__container">
+                
+                <div class="header__wrapper">
+                    <a href="./index.html" class="header__logo-img-link">
+                        <img class="header__logo-img" src="./images/logo.svg" alt="logo"  width="108" height="28">
+                    </a>
+                    
+                    <nav class="header__nav">
+                        <ul class="header__nav-list">
+                            <li class="header__nav-item">
+                                <a href="#" class="header__nav-link">About</a>
+                            </li>
+                            
+                            <li class="header__nav-item">
+                                <a href="#" class="header__nav-link">Location</a>
+                            </li>
+                            
+                            <li class="header__nav-item">
+                                <a href="#" class="header__nav-link">Careers</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                
+                <button class="button header__button-off" type="button">Get Scootin</button>
+                
+                <button type="button" class="header__btn">
+                    <img class="header__burger-img" src="./images/burger-menu.svg" alt="burger menu">
+                    <img class="header__close-img" src="./images/close.svg" alt="close">
+                </button>
             </div>
-        </nav>
+        </div>
     </header>
-
-
+    
     <main class="main">
+        
         <section class="hero">
-            <div class="container">
-
+            <div class="container hero__container">
+                <div class="hero__box">                    
+                    <h3 class="hero__heading">
+                        Scooter sharing made simple
+                    </h3>
+                    
+                    <p class="hero__text">
+                        Scoot takes the hassle out of urban mobility. Our bikes are placed in convenient locations in each of our cities. Use our app to locate the nearest bike, unlock it with a tap, and you're away!
+                    </p>
+                    
+                    <button class="button hero__button" type="button">Get Scootin</button>
+                </div>
             </div>
         </section>
-    </main>
-
-    <footer class="footer">
-        <div class="conainer">
-            
-        </div>
-    </footer>
-
+        
+        <section class="opportunities">
+            <div class="container opportunities__container">
+                
+                <ul class="opportunities__list">
+                    <li class="opportunities__item opportunities__item-first">
+                        <div class="opportunities__item-wrapper">
+                            <h3 class="opportunities__heading">Locate with app</h3>
+                            <p class="opportunities__text">
+                                Use the app to find the nearest scooter to you. We are continuously placing scooters in the areas with most demand, so one should never be too far away.
+                            </p>
+                        </div>
+                    </li>
+                    
+                    <li class="opportunities__item opportunities__item-second">
+                        <div class="opportunities__item-wrapper">
+                            <h3 class="opportunities__heading">Pick your scooter</h3>
+                            <p class="opportunities__text">
+                                We show the most important info for the scooters closest to you. So you know how much charge they have left and can see roughly how much it will cost.
+                            </p>
+                        </div>
+                    </li>
+                    
+                    <li class="opportunities__item opportunities__item-third">
+                        <div class="opportunities__item-wrapper">
+                            <h3 class="opportunities__heading">Enjoy the ride</h3>
+                            <p class="opportunities__text">
+                                Scan the QR code and the bike will unlock. Retract the cable lock, put on a helmet, and you’re off! Always lock bikes away from walkways and accessibility ramps.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+                
+            </div>
+        </section>
+        
+        <section class="facilities">
+            <div class="container facilities__container">
+                <div class="facilities__wraper">
+                    <h2 class="facilities__heading">Easy to use riding telemetry</h2>
+                    
+                    <p class="facilities__title">
+                        The Scoot app is available with riding telemetry. This means it can show you your average speed, how long you've been using the scooter, your traveling distance, and many more things all in an easy to use app.
+                    </p>
+                    
+                    <button class="button facilities__button" type="button">Learn More</button>
+                </div>
+                <div class="facilities__picture">
+                    
+                    <picture>
+                        
+                        <source
+                        media="(max-width: 1200px)"
+                        srcset="./images/telemetry.png 1x, ./images/telemetry@2x.png 2x"
+                        width="445"
+                        height="445"
+                        >
+                        
+                        <source
+                        media="(max-width: 510px)"
+                        srcset="./images/telemetry.png 1x, ./images/telemetry@2x.png 2x"
+                        width="311"
+                        height="311"
+                        >
+                        
+                        <img
+                        class="facilities__img" src="./images/telemetry.png"
+                        srcset="./images/telemetry.png 1x, ./images/telemetry@2x.png 2x"
+                        alt="girl watch phone"
+                        width="445"
+                        height="445"
+                        >
+                        
+                    </picture>
+                    
+                </div>
+            </div>      
+        </section>
+        
+        <section class="facilities">
+            <div class="container facilities__container">
+                <div class="facilities__wraper">
+                    <h2 class="facilities__heading">Easy to use riding telemetry</h2>
+                    
+                    <p class="facilities__title">
+                        The Scoot app is available with riding telemetry. This means it can show you your average speed, how long you've been using the scooter, your traveling distance, and many more things all in an easy to use app.
+                    </p>
+                    
+                    <button class="button facilities__button" type="button">Learn More</button>
+                </div>
+                <div class="facilities__picture">
+                    
+                    <picture>
+                        
+                        <source
+                        media="(max-width: 1200px)"
+                        srcset="./images/Bitmap.png 1x, ./images/   Bitmap@2x.png 2x"
+                        width="445"
+                        height="445"
+                        >
+                        
+                        <source
+                        media="(max-width: 510px)"
+                        srcset="./images/Bitmap.png 1x, ./images/   Bitmap@2x.png 2x"
+                        width="311"
+                        height="311"
+                        >
+                        
+                        <img
+                        class="facilities__img" src="./images/Bitmap.png"
+                        srcset="./images/Bitmap.png 1x, ./images/Bitmap@2x.png 2x"
+                        alt="girl watch phone"
+                        width="445"
+                        height="445"
+                        >
+                        
+                    </picture>
+                    
+                </div>
+            </div>      
+        </section>
+        
+        
+    <script src="./js/main.js"></script>
 </body>
 </html>
